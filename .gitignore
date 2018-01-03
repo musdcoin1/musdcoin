@@ -1,0 +1,34 @@
+src/*.exe
+src/musdcoin
+src/musdcoind
+src/test_musdcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.musdcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+musdcoin-qt
+Musdcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+musdcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
